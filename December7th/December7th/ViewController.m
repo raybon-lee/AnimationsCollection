@@ -114,7 +114,7 @@
 - (void)drawImageTransformation{
     //定义图片控件
     _imageView=[[UIImageView alloc]init];
-    _imageView.frame=[UIScreen mainScreen].applicationFrame;
+    _imageView.frame=[UIScreen mainScreen].bounds;
     _imageView.contentMode=UIViewContentModeScaleAspectFill;
     _imageView.image=[UIImage imageNamed:@"0.jpg"];//默认图片
     [self.view addSubview:_imageView];
@@ -145,7 +145,7 @@
     CATransition *transition=[[CATransition alloc]init];
     
     //2.设置动画类型,注意对于苹果官方没公开的动画类型只能使用字符串，并没有对应的常量定义
-    transition.type=@"cube";
+    transition.type=@"reveal";
     
     //设置子类型
     if (isNext) {
