@@ -10,18 +10,15 @@
 
 @implementation NSObject (RZTransitionsViewHelpers)
 
-- (UIView *)rzt_toView
-{
+- (UIView *)rzt_toView{
     return [self _RZTViewHelper:YES];
 }
 
-- (UIView *)rzt_fromView
-{
+- (UIView *)rzt_fromView{
     return [self _RZTViewHelper:NO];
 }
 
-- (UIView *)_RZTViewHelper:(BOOL)isTo
-{
+- (UIView *)_RZTViewHelper:(BOOL)isTo{
     NSAssert([self conformsToProtocol:@protocol(UIViewControllerContextTransitioning)], @"bad parameter");
     if (![self conformsToProtocol:@protocol(UIViewControllerContextTransitioning)]) {
         return nil;
@@ -34,8 +31,7 @@
     if ([context respondsToSelector:@selector(viewForKey:)]) {
         NSString *vKey = isTo ? UITransitionContextToViewKey : UITransitionContextFromViewKey;
         return [context viewForKey:vKey];
-    }
-    else {
+    }else {
         return vc.view;
     }
 #else

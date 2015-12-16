@@ -20,10 +20,15 @@
 		98033F561C1FF6EC008F59B0 /* TransitionsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 98033F551C1FF6EC008F59B0 /* TransitionsManager.m */; };
 		98033F5B1C20033D008F59B0 /* ZoomAlphaAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98033F5A1C20033D008F59B0 /* ZoomAlphaAnimationController.m */; };
 		98033F5F1C2003CF008F59B0 /* NSObject+RZTransitionsViewHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 98033F5E1C2003CF008F59B0 /* NSObject+RZTransitionsViewHelpers.m */; };
-		98033F621C2006A5008F59B0 /* CardSlideAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98033F611C2006A5008F59B0 /* CardSlideAnimationController.m */; };
 		98033F681C201190008F59B0 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98033F671C201190008F59B0 /* NavigationController.m */; };
 		98033F6B1C201376008F59B0 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 98033F6A1C201376008F59B0 /* UIColor+Random.m */; };
 		98033F6E1C201B7C008F59B0 /* SimpleColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98033F6D1C201B7C008F59B0 /* SimpleColorViewController.m */; };
+		98E7E4F21C21013D009D4A4A /* OverscrollInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E7E4F11C21013D009D4A4A /* OverscrollInteractionController.m */; };
+		98E7E4F51C2102C6009D4A4A /* RectZoomAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E7E4F41C2102C6009D4A4A /* RectZoomAnimationController.m */; };
+		98E7E4F81C214981009D4A4A /* VerticalSwipeInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E7E4F71C214981009D4A4A /* VerticalSwipeInteractionController.m */; };
+		98E7E4FB1C214A05009D4A4A /* PinchInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E7E4FA1C214A05009D4A4A /* PinchInteractionController.m */; };
+		98E7E4FE1C21570D009D4A4A /* CardSlideAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E7E4FD1C21570D009D4A4A /* CardSlideAnimationController.m */; };
+		98E7E5011C215CB3009D4A4A /* CirclePushAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E7E5001C215CB3009D4A4A /* CirclePushAnimationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,14 +59,24 @@
 		98033F5A1C20033D008F59B0 /* ZoomAlphaAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomAlphaAnimationController.m; sourceTree = "<group>"; };
 		98033F5D1C2003CF008F59B0 /* NSObject+RZTransitionsViewHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RZTransitionsViewHelpers.h"; sourceTree = "<group>"; };
 		98033F5E1C2003CF008F59B0 /* NSObject+RZTransitionsViewHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RZTransitionsViewHelpers.m"; sourceTree = "<group>"; };
-		98033F601C2006A5008F59B0 /* CardSlideAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardSlideAnimationController.h; sourceTree = "<group>"; };
-		98033F611C2006A5008F59B0 /* CardSlideAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardSlideAnimationController.m; sourceTree = "<group>"; };
 		98033F661C201190008F59B0 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
 		98033F671C201190008F59B0 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		98033F691C201376008F59B0 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
 		98033F6A1C201376008F59B0 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
 		98033F6C1C201B7C008F59B0 /* SimpleColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleColorViewController.h; sourceTree = "<group>"; };
 		98033F6D1C201B7C008F59B0 /* SimpleColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleColorViewController.m; sourceTree = "<group>"; };
+		98E7E4F01C21013D009D4A4A /* OverscrollInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverscrollInteractionController.h; sourceTree = "<group>"; };
+		98E7E4F11C21013D009D4A4A /* OverscrollInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverscrollInteractionController.m; sourceTree = "<group>"; };
+		98E7E4F31C2102C6009D4A4A /* RectZoomAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectZoomAnimationController.h; sourceTree = "<group>"; };
+		98E7E4F41C2102C6009D4A4A /* RectZoomAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectZoomAnimationController.m; sourceTree = "<group>"; };
+		98E7E4F61C214981009D4A4A /* VerticalSwipeInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalSwipeInteractionController.h; sourceTree = "<group>"; };
+		98E7E4F71C214981009D4A4A /* VerticalSwipeInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalSwipeInteractionController.m; sourceTree = "<group>"; };
+		98E7E4F91C214A05009D4A4A /* PinchInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchInteractionController.h; sourceTree = "<group>"; };
+		98E7E4FA1C214A05009D4A4A /* PinchInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchInteractionController.m; sourceTree = "<group>"; };
+		98E7E4FC1C21570D009D4A4A /* CardSlideAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardSlideAnimationController.h; sourceTree = "<group>"; };
+		98E7E4FD1C21570D009D4A4A /* CardSlideAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardSlideAnimationController.m; sourceTree = "<group>"; };
+		98E7E4FF1C215CB3009D4A4A /* CirclePushAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirclePushAnimationController.h; sourceTree = "<group>"; };
+		98E7E5001C215CB3009D4A4A /* CirclePushAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CirclePushAnimationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +165,18 @@
 				98033F4E1C1FF463008F59B0 /* BaseSwipeInteractionController.m */,
 				98033F501C1FF59D008F59B0 /* HorizontalInteractionController.h */,
 				98033F511C1FF59D008F59B0 /* HorizontalInteractionController.m */,
+				98E7E4F01C21013D009D4A4A /* OverscrollInteractionController.h */,
+				98E7E4F11C21013D009D4A4A /* OverscrollInteractionController.m */,
+				98E7E4F31C2102C6009D4A4A /* RectZoomAnimationController.h */,
+				98E7E4F41C2102C6009D4A4A /* RectZoomAnimationController.m */,
+				98E7E4F61C214981009D4A4A /* VerticalSwipeInteractionController.h */,
+				98E7E4F71C214981009D4A4A /* VerticalSwipeInteractionController.m */,
+				98E7E4F91C214A05009D4A4A /* PinchInteractionController.h */,
+				98E7E4FA1C214A05009D4A4A /* PinchInteractionController.m */,
+				98E7E4FC1C21570D009D4A4A /* CardSlideAnimationController.h */,
+				98E7E4FD1C21570D009D4A4A /* CardSlideAnimationController.m */,
+				98E7E4FF1C215CB3009D4A4A /* CirclePushAnimationController.h */,
+				98E7E5001C215CB3009D4A4A /* CirclePushAnimationController.m */,
 			);
 			path = Interactors;
 			sourceTree = "<group>";
@@ -179,8 +206,6 @@
 				98033F581C1FF7DE008F59B0 /* AnimationControllerProtocol.h */,
 				98033F591C20033D008F59B0 /* ZoomAlphaAnimationController.h */,
 				98033F5A1C20033D008F59B0 /* ZoomAlphaAnimationController.m */,
-				98033F601C2006A5008F59B0 /* CardSlideAnimationController.h */,
-				98033F611C2006A5008F59B0 /* CardSlideAnimationController.m */,
 			);
 			path = Transitions;
 			sourceTree = "<group>";
@@ -267,9 +292,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				98033F6E1C201B7C008F59B0 /* SimpleColorViewController.m in Sources */,
+				98E7E4F81C214981009D4A4A /* VerticalSwipeInteractionController.m in Sources */,
 				98033F561C1FF6EC008F59B0 /* TransitionsManager.m in Sources */,
 				98033F6B1C201376008F59B0 /* UIColor+Random.m in Sources */,
+				98E7E4F21C21013D009D4A4A /* OverscrollInteractionController.m in Sources */,
 				98033F5F1C2003CF008F59B0 /* NSObject+RZTransitionsViewHelpers.m in Sources */,
+				98E7E5011C215CB3009D4A4A /* CirclePushAnimationController.m in Sources */,
+				98E7E4FE1C21570D009D4A4A /* CardSlideAnimationController.m in Sources */,
 				98033F4F1C1FF463008F59B0 /* BaseSwipeInteractionController.m in Sources */,
 				98033F5B1C20033D008F59B0 /* ZoomAlphaAnimationController.m in Sources */,
 				98033F421C1FEE39008F59B0 /* CollectionViewController.m in Sources */,
@@ -278,8 +307,9 @@
 				98033F271C1FECE7008F59B0 /* main.m in Sources */,
 				98033F4C1C1FF32D008F59B0 /* UniqueTransition.m in Sources */,
 				98033F681C201190008F59B0 /* NavigationController.m in Sources */,
-				98033F621C2006A5008F59B0 /* CardSlideAnimationController.m in Sources */,
 				98033F521C1FF59D008F59B0 /* HorizontalInteractionController.m in Sources */,
+				98E7E4F51C2102C6009D4A4A /* RectZoomAnimationController.m in Sources */,
+				98E7E4FB1C214A05009D4A4A /* PinchInteractionController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

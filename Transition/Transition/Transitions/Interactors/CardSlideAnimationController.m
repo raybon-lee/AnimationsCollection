@@ -2,7 +2,7 @@
 //  CardSlideAnimationController.m
 //  Transition
 //
-//  Created by macmimi on 15/12/15.
+//  Created by macmimi on 15/12/16.
 //  Copyright © 2015年 Carmen. All rights reserved.
 //
 
@@ -11,10 +11,9 @@
 
 #define kRZSlideTransitionTime 0.35
 #define kRZSlideScaleChangePct 0.33
-
 @implementation CardSlideAnimationController
-@synthesize isPositiveAnimation = _isPositiveAnimation;
 
+@synthesize isPositiveAnimation = _isPositiveAnimation;
 
 - (instancetype)init
 {
@@ -92,10 +91,7 @@
     }
 }
 
-- (NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext
-{
+- (NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext{
     return self.transitionTime;
 }
-
-
 @end

@@ -55,11 +55,11 @@
     
     for ( NSUInteger x = 1; (x < (1 << (kTransitionActionCount - 1))); ) {
         if ( action & x ) {
+            //x = 1 , action = 0..10 push = 00..01 pop = 00..10 present = 00..100 dismiss = 00..1000 pushpop = 00..11 presentdismiss = 00..1100
             if ( ((x & TransitionAction_Pop) && !(x & TransitionAction_Push)) ||
                 ((x & TransitionAction_Dismiss) && !(x & TransitionAction_Present)) ) {
                 keyValue = [[UniqueTransition alloc] initWithAction:x withFromViewControllerClass:toViewController withToViewControllerClass:fromViewController];
-            }
-            else {
+            }else {
                 keyValue = [[UniqueTransition alloc] initWithAction:x withFromViewControllerClass:fromViewController withToViewControllerClass:toViewController];
             }
             [self.animationControllers setObject:animationController forKey:keyValue];
